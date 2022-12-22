@@ -1,0 +1,68 @@
+[
+  {
+    "name": "ping",
+    "description": "Replies with pong!",
+    "options": [
+      {
+        "name": "latency",
+        "description": "Check the latency of the bot",
+        "type": 5
+      }
+    ]
+  },
+  {
+    "name": "level",
+    "description": "Check your level",
+    "options": [
+      {
+        "name": "user",
+        "description": "Whose level should I check?",
+        "type": 6,
+        "required": false
+      }
+    ]
+  },
+  {
+    "name": "suggestions",
+    "description": "Suggest something for the server",
+    "options": [
+      {
+        "name": "add",
+        "description": "Add a suggestion",
+        "type": 1,
+        "options": [
+          {
+            "name": "title",
+            "description": "What is your suggestion called?",
+            "type": 3,
+            "required": true
+          },
+          {
+            "name": "description",
+            "description": "describe your suggestion?",
+            "type": 3,
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "edit",
+        "description": "Edit or remove a suggestion",
+        "type": 1,
+        "options": [
+          {
+            "name": "suggestion",
+            "description": "What is the ID of the suggestion?",
+            "type": 3,
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "view",
+        "description": "view suggestions",
+        "type": 1
+      }
+    ]
+  }
+]

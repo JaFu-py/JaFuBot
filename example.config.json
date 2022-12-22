@@ -1,0 +1,14 @@
+{
+  "bot": {
+    "token": "Your Token",
+    "id": "Bot ID"
+  },
+  "subabase": {
+    "key": "Supabase KEY",
+    "url": "Subabase URL"
+  },
+  "channels": {
+    "ignore": ["Channel ID (as String) "]
+  },
+  "guild": ["Guild ID (as String)"]
+}
